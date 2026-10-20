@@ -1,10 +1,8 @@
-Case Study: Nexora, a Digital Savings and Financial Management Platform (Simulated)
+Case Study: Nexora, a Digital Savings and Financial Management Platform
 
 Nature of the System
 
 Nexora is a simulated digital savings and financial management platform where customers create savings accounts, set personal financial goals, deposit and withdraw money, monitor their savings progress, and view their transaction history. The platform is designed to help individuals manage their money, develop disciplined savings habits, and track their financial progress through a mobile or web application.
-
-This case study is a simulation created for an Advanced Database assignment. It is not based on Nexora’s actual database design or internal systems.
 
 Users of the Database
 
