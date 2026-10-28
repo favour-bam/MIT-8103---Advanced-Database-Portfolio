@@ -4,7 +4,7 @@
 **Student Name:** Bamishaye Favour  
 **Student ID:** 301915930  
 **Project Platform:** Nexora – Digital Savings and Financial Management Platform (Simulated)  
-**Date of Submission:** October 2026  
+**Date of Submission:** 28th October 2026  
 **Artifact:** `AI_declaration.md`  
 
 ---
