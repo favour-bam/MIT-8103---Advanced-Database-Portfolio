@@ -14,7 +14,8 @@
 In modern enterprise fintech platforms like **Nexora**, a single database engine cannot optimally satisfy all workload characteristics. While PostgreSQL powers Nexora's relational core (Portfolios 1–3) for strict double-entry ledger accounting, ACID transfers, and regulatory reconciliation, **MongoDB** is deployed as a complementary document store under a **Polyglot Persistence** architecture.
 
 For exhaustive data modeling theory, embedding vs. referencing trade-offs, and schema design decisions, see:  
-👉 **[nosql-model-design.md](nosql-model-design.md)**
+👉 **[nosql-model-design.md](nosql-model-design.md)**  
+👉 **[sql-vs-nosql-rational.md](sql-vs-nosql-rational.md)**
 
 ```
                            ┌─────────────────────────────────────────┐
@@ -52,6 +53,7 @@ For exhaustive data modeling theory, embedding vs. referencing trade-offs, and s
 portfolio-4-nosql/
 ├── README.md                                  # Comprehensive portfolio documentation
 ├── nosql-model-design.md                      # In-depth NoSQL data modeling & architecture report
+├── sql-vs-nosql-rational.md                   # Rigorous SQL vs. NoSQL architectural rationale
 ├── script/                                    # Automated mongosh JavaScript scripts
 │   ├── 01_schema_validation.js               # Collection initialization & JSON Schema validation
 │   ├── 02_seed_data.js                       # Deterministic LCG synthetic data generator (105k+ docs)
