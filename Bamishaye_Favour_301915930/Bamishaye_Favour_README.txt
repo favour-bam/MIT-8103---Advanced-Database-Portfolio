@@ -11,9 +11,9 @@ Academic Session:      2026/2027 Academic Session (September Cohort)
 Awarding Institution:  Miva Open University — School of Post Graduate Studies
 Student Full Name:     Bamishaye Favour
 Student ID:            301915930
-Student Email:         favour.bamishaye@miva.university
+Student Email:         f.bamishaye5930@miva.edu.ng
 Chosen Case Study:     Nexora – Digital Savings and Financial Management Platform
-GitHub Repository:     https://github.com/favour-bam/MIT-8103---Advanced-Database-Testing
+GitHub Repository:     https://github.com/favour-bam/MIT-8103---Advanced-Database-Portfolio
 Submission Archive:    Bamishaye_Favour_301915930.zip
 Date of Submission:    November 2026
 

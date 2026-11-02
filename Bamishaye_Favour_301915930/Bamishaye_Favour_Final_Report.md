@@ -7,9 +7,9 @@
 **Assessment Type:** Individual Practical Database Portfolio (LMS + GitHub)  
 **Student Name:** Bamishaye Favour  
 **Student ID:** 301915930  
-**Student Email:** `favour.bamishaye@miva.university`  
+**Student Email:** `f.bamishaye5930@miva.edu.ng`  
 **Chosen Case Study:** Nexora – Digital Savings and Financial Management Platform (Simulated)  
-**GitHub Repository URL:** [https://github.com/favour-bam/MIT-8103---Advanced-Database-Testing](https://github.com/favour-bam/MIT-8103---Advanced-Database-Testing)  
+**GitHub Repository URL:** [https://github.com/favour-bam/MIT-8103---Advanced-Database-Portfolio](https://github.com/favour-bam/MIT-8103---Advanced-Database-Portfolio)  
 **Date of Submission:** November 2026  
 
 ---
@@ -128,7 +128,7 @@ Portfolio 5 expands Nexora into distributed high-availability topologies:
 ## 4. GitHub Repository Provenance & Workspace Organization
 
 The complete project codebase, configuration files, and empirical evidence are published at:  
-👉 **[https://github.com/favour-bam/MIT-8103---Advanced-Database-Testing](https://github.com/favour-bam/MIT-8103---Advanced-Database-Testing)**
+👉 **[https://github.com/favour-bam/MIT-8103---Advanced-Database-Portfolio](https://github.com/favour-bam/MIT-8103---Advanced-Database-Portfolio)**
 
 - **Branch Structure:** Maintained on the `main` branch with clean semantic commits tracking progressive development across all 5 portfolios throughout the semester.
 - **Directory Hierarchy:** Structured into isolated directories (`portfolio-1-database-design/` through `portfolio-5-distributed-cloud/`), each containing dedicated SQL/MQL scripts, configuration files, raw terminal outputs (`output/`), and authenticated screenshots (`screenshots/`).

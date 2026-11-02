@@ -6,8 +6,8 @@
 **Degree Program:** Master of Information Technology (M.Sc. / MIT)  
 **Student Name:** Bamishaye Favour  
 **Student ID:** 301915930  
-**Student Email:** `favour.bamishaye@miva.university`  
-**GitHub Repository URL:** [https://github.com/favour-bam/MIT-8103---Advanced-Database-Testing](https://github.com/favour-bam/MIT-8103---Advanced-Database-Testing)  
+**Student Email:** `f.bamishaye5930@miva.edu.ng`  
+**GitHub Repository URL:** [https://github.com/favour-bam/MIT-8103---Advanced-Database-Portfolio](https://github.com/favour-bam/MIT-8103---Advanced-Database-Portfolio)  
 **Assessment Type:** Individual Practical Database Portfolio (LMS + GitHub)  
 
 ---
@@ -196,4 +196,4 @@ docker compose down -v
 - **Standalone Submission Catalog:**  
   👉 [Bamishaye_Favour_README.txt](Bamishaye_Favour_README.txt) *(Plain-text submission index for Field 3).*
 - **GitHub Repository Access:**  
-  Live repository URL: [https://github.com/favour-bam/MIT-8103---Advanced-Database-Testing](https://github.com/favour-bam/MIT-8103---Advanced-Database-Testing) (Publicly accessible to assessor).
+  Live repository URL: [https://github.com/favour-bam/MIT-8103---Advanced-Database-Portfolio](https://github.com/favour-bam/MIT-8103---Advanced-Database-Portfolio) (Publicly accessible to assessor).
