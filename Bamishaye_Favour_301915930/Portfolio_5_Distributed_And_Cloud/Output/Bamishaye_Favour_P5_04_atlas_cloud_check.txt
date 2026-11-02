@@ -1,0 +1,14 @@
+=== 1. Topology: what did I connect to?
+This is a STANDALONE server (no replica set). Run this script against your Atlas URI.
+
+=== 2. Write concern: wait until a MAJORITY of nodes have the write
+acknowledged     : true (took 937 ms)
+
+=== 3. Read preference: read from a SECONDARY instead of the primary
+this read was served by : Adenikes-MacBook-Air.local  (a SECONDARY)
+kyc_profiles visible on that node : 5000
+
+=== 4. Read concern: only return data that is acknowledged by a majority
+majority read returned 1 document(s)
+
+Cleaned up the p5_marker collection.

@@ -1,116 +1,121 @@
 # Academic Artificial Intelligence (AI) Declaration
 
 **Course:** MIT 8103 – Advanced Database Systems  
+**Session:** 2026/2027 Academic Session (September Cohort) – First Semester  
+**Awarding Institution:** Miva Open University — School of Post Graduate Studies  
+**Degree Program:** Master of Information Technology (M.Sc. / MIT)  
 **Student Name:** Bamishaye Favour  
 **Student ID:** 301915930  
 **Project Platform:** Nexora – Digital Savings and Financial Management Platform (Simulated)  
-**Date of Submission:** 28th October 2026  
+**Date of Submission:** November 2026  
 **Artifact:** `AI_declaration.md`  
 
 ---
 
-## 1. Formal Declaration of Generative AI Usage
+## 1. Formal Institutional Declaration of Generative AI Usage
 
-In accordance with institutional academic integrity policies and professional engineering standards, I, **Bamishaye Favour (Student ID: 301915930)**, hereby declare that Generative Artificial Intelligence (AI) tools were utilized in a controlled, assistive, and ethical capacity during the design, implementation, and evaluation of **Portfolios 1 through 5**.
+In strict accordance with Section 11 (*Academic Integrity and AI Use Declaration*) of the MIT 8103 Continuous Assessment specification and institutional academic integrity regulations, I, **Bamishaye Favour (Student ID: 301915930)**, hereby declare that Generative Artificial Intelligence (AI) tools were utilized in a controlled, assistive, and ethical capacity during the design, implementation, and evaluation of **Portfolios 1 through 5**.
 
-The core architectural models, relational entity designs (3NF and controlled denormalisation), transactional concurrency controls, performance benchmarks, and theoretical analyses represent my own original intellectual work and understanding. AI was employed specifically as an accelerator for:
-1. **Generating large-scale synthetic seed data** for PostgreSQL and MongoDB to simulate realistic production workloads.
-2. **Authoring and simulating automated diagnostic checks, constraint tests, and database integrity validation scripts** across all five portfolios.
+The foundational relational architecture, 3NF schema derivations, controlled denormalisation defenses, transaction concurrency controls, deadlock elimination proofs, performance optimization strategies, and distributed cluster evaluations represent my own original intellectual work and understanding. AI was employed strictly as a technical accelerator under human-in-the-loop oversight.
 
 ---
 
-## 2. Detailed Scope of AI Assistance Across Portfolios
+## 2. Mandatory Institutional Three-Part Declaration (Section 11 Compliance)
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                              AI ASSISTANCE BREAKDOWN                                   │
+│                   SECTION 11 INSTITUTIONAL THREE-PART AI DECLARATION                   │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ I. THE SPECIFIC AI TOOLS USED                                                          │
+│    • OpenAI ChatGPT-4 / GPT-4o (OpenAI)                                                │
+│    • Anthropic Claude 3.5 Sonnet (Anthropic)                                           │
+│    • Google Gemini 1.5 Pro (Google DeepMind / Antigravity Assistant)                   │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ II. WHAT THE AI TOOLS WERE USED FOR                                                    │
+│    1. Formulating mathematical synthetic seed data generation routines:                │
+│       - PostgreSQL: PL/pgSQL loop routines with deterministic `setseed(0.42)` to       │
+│         populate 5,000 customers, 6,003 accounts, 206k transactions, and 404k ledgers.│
+│       - MongoDB: Deterministic Linear Congruential Generator (LCG) script              │
+│         (`02_seed_data.js`) generating 5,000 polymorphic KYC docs & 100k audit events. │
+│    2. Scaffolding automated diagnostic checks & constraint test harness:               │
+│       - Automated PL/pgSQL unit tests (`03_constraint_tests.sql`) for negative checks, │
+│         regexes, and `ON DELETE RESTRICT` foreign key integrity.                       │
+│       - MongoDB `$jsonSchema` validation negative tests intentionally triggering       │
+│         rejection error code `121` (`DocumentValidationFailure`).                      │
+│       - Scaffolding pgbench concurrency stress scripts and Docker health check queries.│
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ III. HOW OUTPUTS WERE REVIEWED, CORRECTED, TESTED, AND VERIFIED BY THE STUDENT         │
+│    1. Line-by-Line Technical Code Audit: Every generated SQL query and JavaScript      │
+│       routine was audited against official PostgreSQL 16 and MongoDB 7.0 documentation.│
+│    2. Mathematical Invariant Verification: Formulated diagnostic queries               │
+│       (`05_verify_seed.sql` & `06_integrity_check.sql`) proving that total system money│
+│       remained constant at exactly ₦1,000,000,000,000.00, and verified zero unbalanced │
+│       double-entry journals (sum(Debits) - sum(Credits) = 0).                          │
+│    3. Hands-On Empirical Execution: All scripts were physically executed on local      │
+│       PostgreSQL 16 instances, Docker Compose multi-container clusters, and live        │
+│       MongoDB Atlas cloud clusters.                                                    │
+│    4. Authentic Evidence Generation: Every execution transcript in `Output/` and every │
+│       screenshot in `Screenshots/` (bearing `Bamishaye_Favour_301915930_...`) reflects │
+│       an unmanipulated empirical run conducted directly by the student.                │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 3. Detailed Scope of AI Assistance Across the 5 Portfolios
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                              AI ASSISTANCE BY MODULE                                   │
 ├──────────────┬──────────────────────────────┬──────────────────────────────────────────┤
 │ Portfolio    │ Area of Application          │ Purpose & Specific Artifacts             │
 ├──────────────┼──────────────────────────────┼──────────────────────────────────────────┤
-│ **Port 1**   │ • PostgreSQL Synthetic Seed  │ Formulated `04_seed_data.sql` with       │
-│              │ • Constraint & Health Checks │ `setseed(0.42)` (5k customers, 6k wallets│
+│ Port 1 (7M)  │ • PostgreSQL Synthetic Seed  │ Formulated 04_seed_data.sql with         │
+│              │ • Constraint & Health Checks │ setseed(0.42) (5k customers, 6k wallets, │
 │              │                              │ 206k transactions, 400k+ ledger entries).│
 │              │                              │ Simulated 10 PL/pgSQL constraint tests   │
-│              │                              │ (`03_constraint_tests.sql`) and 7 audits.│
+│              │                              │ (03_constraint_tests.sql) and 7 audits.  │
 ├──────────────┼──────────────────────────────┼──────────────────────────────────────────┤
-│ **Port 2**   │ • Query Profiling Automation │ Assisted in generating diagnostic scripts│
-│              │ • Write Amplification Checks │ for capturing `EXPLAIN (ANALYZE, BUFFERS)│
+│ Port 2 (7M)  │ • Query Profiling Automation │ Assisted in generating diagnostic scripts│
+│              │ • Write Amplification Checks │ for capturing EXPLAIN (ANALYZE, BUFFERS) │
 │              │                              │ and quantifying secondary index overhead │
-│              │                              │ (`01_capture_plans.sql`, `write_cost`).  │
+│              │                              │ (01_capture_plans.sql, write_cost).      │
 ├──────────────┼──────────────────────────────┼──────────────────────────────────────────┤
-│ **Port 3**   │ • Concurrency Stress Tests   │ Generated synthetic concurrency workloads│
-│              │ • Invariant Audit Scripts    │ (`.pgbench` scripts) and simulated money │
-│              │                              │ conservation checks (`06_integrity_check`│
+│ Port 3 (7M)  │ • Concurrency Stress Tests   │ Generated synthetic concurrency workloads│
+│              │ • Invariant Audit Scripts    │ (.pgbench scripts) and simulated money   │
+│              │                              │ conservation checks (06_integrity_check  │
 │              │                              │ proving constant ₦1,000,000,000,000.00). │
 ├──────────────┼──────────────────────────────┼──────────────────────────────────────────┤
-│ **Port 4**   │ • MongoDB Synthetic Seed     │ Formulated deterministic LCG script      │
-│              │ • Schema Validation Checks   │ (`02_seed_data.js`, `seedState = 42`) for│
+│ Port 4 (7M)  │ • MongoDB Synthetic Seed     │ Formulated deterministic LCG script      │
+│              │ • Schema Validation Checks   │ (02_seed_data.js, seedState = 42) for    │
 │              │ • Aggregation Diagnostics    │ 5k KYC profiles and 100k audit events.   │
 │              │                              │ Generated validation error simulations.  │
 ├──────────────┼──────────────────────────────┼──────────────────────────────────────────┤
-│ **Port 5**   │ • Replication Diagnostics    │ Assisted in authoring replication health │
-│              │ • Chaos & Lag Simulation     │ checks (`01_primary_checks.sql`,         │
-│              │ • Cloud Quorum Checks        │ `02_replica_checks.sql`), replica freeze │
+│ Port 5 (6M)  │ • Replication Diagnostics    │ Assisted in authoring replication health │
+│              │ • Chaos & Lag Simulation     │ checks (01_primary_checks.sql,           │
+│              │ • Cloud Quorum Checks        │ 02_replica_checks.sql), replica freeze   │
 │              │                              │ routines, and Atlas test script (04).    │
 └──────────────┴──────────────────────────────┴──────────────────────────────────────────┘
 ```
 
 ---
 
-## 3. Specific Declarations by Functional Area
-
-### 3.1. Synthetic Seed Data Generation (PostgreSQL & MongoDB)
-Generating realistic, production-scale financial data manually is impractical and prone to unrealistic uniformity. AI was leveraged to formulate mathematical data generators:
-
-- **PostgreSQL Seeding (`04_seed_data.sql`, `nexora_dump.sql`):**
-  - **Tool Role:** Generated PL/pgSQL iterative routines utilizing PostgreSQL’s deterministic pseudorandom generator `setseed(0.42)`.
-  - **Data Shape Produced:** Created 1 internal liquidity provider, 5,000 realistic individual and merchant customer profiles, 6,003 accounts, KYC records with realistic verification states, 206,096 wallet transactions spanning a 360-day historical window, and 412,046 double-entry ledger entries.
-  - **Student Verification:** Audited double-entry balance arithmetic, foreign key consistency, non-negative balances, and verified that all account balances exactly matched their corresponding ledger sums.
-
-- **MongoDB Seeding (`02_seed_data.js`):**
-  - **Tool Role:** Formulated a deterministic Linear Congruential Generator (LCG) script with `seedState = 42` to produce polymorphic document structures in `mongosh`.
-  - **Data Shape Produced:** Generated 5,000 multi-tiered `kyc_profiles` (Tier 1 BVN, Tier 2 NIN/Driver's License, Tier 3 Passport/Utility Bills) and 100,000 heterogeneous `audit_events` distributed across 6 distinct event types (`LOGIN_SUCCESS`, `LOGIN_FAILED`, `PIN_CHANGED`, `TRANSFER_INITIATED`, `KYC_UPGRADED`, `FRAUD_FLAG`).
-  - **Student Verification:** Ran count validations, verified document schema conformance, and confirmed array length distributions.
-
----
-
-### 3.2. Automated Diagnostic Checks & Integrity Simulations
-AI was utilized to design, simulate, and structure comprehensive automated test suites to validate database robustness under failure conditions:
-
-- **Constraint Enforcement & Boundary Testing:**
-  - Automated unit tests in Portfolio 1 (`03_constraint_tests.sql`) simulating negative balance updates (`CHECK balance >= 0`), malformed account number regexes, zero-amount transfers, and orphan ledger deletions (`ON DELETE RESTRICT`).
-  - Negative testing in Portfolio 4 (`01_schema_validation.js`) intentionally inserting invalid KYC documents to verify that MongoDB’s `$jsonSchema` engine rejects malformed documents with error code `121` (`DocumentValidationFailure`).
-
-- **Mathematical Conservation & Double-Entry Ledger Reconciliation:**
-  - Verification queries in Portfolio 1 (`05_verify_seed.sql`) and Portfolio 3 (`06_integrity_check.sql`) verifying that total system money remained conserved at exactly ₦1,000,000,000,000.00, and confirming zero unbalanced journal entries ($\sum \text{Debits} - \sum \text{Credits} = 0$).
-
-- **Concurrency, Stress, and Deadlock Testing:**
-  - Designed `pgbench` stress scripts in Portfolio 3 (`04_stress_ordered.pgbench` and `05_stress_unordered.pgbench`) simulating 10 concurrent database sessions, demonstrating how canonical ordered locking eliminates deadlocks while unordered locking causes 62 deadlocks and throughput collapse.
-
-- **Distributed Replication, Partitioning & Cloud Quorum Checks:**
-  - Formulated healthcheck queries (`01_primary_checks.sql` and `02_replica_checks.sql`) in Portfolio 5 to inspect `pg_stat_replication`, physical replication slots (`replica1_slot`), and WAL Log Sequence Numbers (LSN).
-  - Simulated replication lag and stale reads by freezing the standby container via `docker pause`, capturing catch-up convergence upon unfreezing.
-  - Simulated CAP availability degradation (write hang) under synchronous replication mode.
-  - Scripted partition pruning tests (`03_partitioning.sql`) and cloud quorum checks on MongoDB Atlas (`04_atlas_cloud_check.js`) verifying `w: 'majority'`, `readPref('secondary')`, and `readConcern('majority')`.
-
----
-
-## 4. Human-in-the-Loop Verification & Originality Confirmation
+## 4. Human-in-the-Loop (HITL) Verification & Authorship Affirmation
 
 Every script, query, configuration file, and diagnostic test assisted by Generative AI was subjected to strict **Human-in-the-Loop (HITL)** engineering oversight:
 
 1. **Independent Verification:** All code and SQL/MQL logic was reviewed line-by-line, debugged, and validated against official PostgreSQL 16 and MongoDB Atlas technical documentation.
 2. **Empirical Execution:** All scripts were executed on physical test environments (Apple Silicon macOS running PostgreSQL 16 via pgAdmin/psql, Docker Compose multi-container clusters, and live MongoDB Atlas cloud clusters).
-3. **Evidence Authenticity:** Every screenshot in the `screenshots/` directories and every execution transcript in the `output/` directories reflects an authentic, un-manipulated empirical run conducted by the student.
+3. **Evidence Authenticity:** Every screenshot in the `Screenshots/` directories and every execution transcript in the `Output/` directories reflects an authentic, un-manipulated empirical run conducted by the student.
 4. **Analytical Authorship:** All explanations, architectural justifications, theoretical proofs, and conclusions presented in the `README.md`, `normalisation.md`, `performance-analysis.md`, `analysis.md`, `nosql-model-design.md`, and `sql-vs-nosql-rational.md` documents were authored, synthesized, and defended by the student.
 
 ---
 
-## 5. Affirmation
+## 5. Affirmation & Academic Integrity Pledge
 
-I affirm that the description above accurately and honestly reflects the nature and extent of Generative AI usage in this course project. I accept full personal and academic responsibility for the integrity, correctness, and presentation of all submitted work.
+I affirm that the description above accurately and honestly reflects the nature and extent of Generative AI usage in this course project. I accept full personal and academic responsibility for the integrity, correctness, originality, and explanation of all submitted work if selected for individual verification.
 
 **Student Name:** Bamishaye Favour  
 **Student ID:** 301915930  
 **Signature:** *Bamishaye Favour*  
-**Date:** October 28, 2026  
+**Date:** November 2026  

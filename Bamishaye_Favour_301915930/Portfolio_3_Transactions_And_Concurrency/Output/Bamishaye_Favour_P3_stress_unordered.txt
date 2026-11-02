@@ -1,0 +1,13 @@
+pgbench (18.6)
+transaction type: portfolio-3-transactions-concurrency/sql/05_stress_unordered.pgbench
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 4
+maximum number of tries: 1
+number of transactions per client: 200
+number of transactions actually processed: 1938/2000
+number of failed transactions: 62 (3.100%)
+latency average = 246.090 ms (including failures)
+initial connection time = 92.162 ms
+tps = 39.375877 (without initial connection time)
